@@ -1,7 +1,3 @@
 library web_lib_test;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+export 'io_vm.dart' if (dart.library.io) 'io_none.dart' ;
